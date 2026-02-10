@@ -1,35 +1,49 @@
-📅 Smart Appointment & Queue Management System
+Smart Appointment & Queue Management System
 
-A full-stack role-based appointment and queue management system that allows customers to book appointments, staff to manage service status, and owners to control staff and system operations.
+A full-stack MERN application for managing appointments and service queues with role-based access for customers, staff, and owners.
 
-Built with the MERN stack and deployed using modern cloud platforms.
-
-🚀 Live Demo
+🔗 Live Application
 
 Frontend (Vercel):
-👉 https://YOUR_FRONTEND_URL.vercel.app
+https://YOUR_FRONTEND_URL.vercel.app
 
 Backend (Render):
-👉 https://YOUR_BACKEND_URL.onrender.com
+https://YOUR_BACKEND_URL.onrender.com
 
-🧩 Features
-👤 Authentication & Authorization
+📌 Overview
+
+Smart Appointment & Queue Management System allows users to book appointments, track service status, and manage staff operations through a secure role-based system.
+
+The platform supports three user roles:
+
+Customer
+
+Staff
+
+Owner
+
+Each role has different permissions and dashboards.
+
+✨ Key Features
+Authentication & Security
 
 JWT-based authentication
 
-Role-based access control (OWNER, STAFF, CUSTOMER)
+Encrypted passwords using bcrypt
 
-👥 Customer
+Role-based authorization
 
-Register & login
+Customer Capabilities
 
-Book appointment
+Register and login
+
+Book appointments
 
 View their own appointments
 
-Track appointment status in real-time
+Track appointment status
 
-🧑‍💼 Staff
+Staff Capabilities
 
 Login
 
@@ -37,7 +51,7 @@ View all appointments
 
 Update appointment status
 
-👑 Owner
+Owner Capabilities
 
 Login
 
@@ -47,20 +61,11 @@ Update appointment status
 
 Delete appointments
 
-Add staff users
+Add staff members
 
 View staff list
 
-🛡 Security
-
-Password hashing using bcrypt
-
-JWT token verification
-
-Protected routes
-
-🏗 Tech Stack
-
+🧱 Tech Stack
 Frontend
 
 React (Vite)
@@ -79,7 +84,7 @@ Express.js
 
 MongoDB (Mongoose)
 
-JWT
+JSON Web Token (JWT)
 
 bcryptjs
 
@@ -91,7 +96,7 @@ Backend: Render
 
 Database: MongoDB Atlas
 
-📁 Project Structure
+📂 Folder Structure
 smart-appointment-system/
 │
 ├── server/
@@ -99,12 +104,78 @@ smart-appointment-system/
 │   ├── models/
 │   ├── routes/
 │   ├── middleware/
-│   ├── server.js
+│   └── server.js
 │
 └── client/
     ├── src/
     │   ├── pages/
     │   ├── components/
     │   ├── services/
-    │   ├── App.jsx
-    │   └── main.jsx
+    │   └── App.jsx
+
+⚙️ Environment Setup
+
+Create a .env file inside the server folder:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=mysecret
+PORT=3001
+
+▶️ Running Locally
+Backend
+cd server
+npm install
+npm run dev
+
+Frontend
+cd client
+npm install
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+🔁 API Endpoints
+Auth
+
+POST /api/auth/register
+
+POST /api/auth/login
+
+Appointments
+
+POST /api/appointments
+
+GET /api/appointments
+
+PUT /api/appointments/:id
+
+DELETE /api/appointments/:id
+
+Staff
+
+POST /api/staff
+
+GET /api/staff
+
+🎓 What I Learned
+
+Implementing JWT authentication
+
+Role-based authorization
+
+Building REST APIs
+
+Frontend-backend integration
+
+Full-stack deployment
+
+👤 Author
+
+Rajan Pandey
+BTech CSE (2024)
+
+GitHub: https://github.com/rajan2607
+
