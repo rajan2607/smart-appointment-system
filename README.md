@@ -8,7 +8,7 @@ Frontend (Vercel):
 https://smart-appointment-client.vercel.app/
 
 Backend (Render):
-[https://YOUR_BACKEND_URL.onrender.com](https://smart-appointment-backend-6vc8.onrender.com/)
+https://smart-appointment-backend-6vc8.onrender.com/
 
 📌 Overview
 
