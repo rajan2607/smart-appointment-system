@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://smart-appointment-backend-6vc8.onrender.com",
+  baseURL: "https://smart-appointment-backend-6vc8.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
