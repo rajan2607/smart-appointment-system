@@ -5,10 +5,10 @@ A full-stack MERN application for managing appointments and service queues with 
 🔗 Live Application
 
 Frontend (Vercel):
-https://YOUR_FRONTEND_URL.vercel.app
+https://smart-appointment-client.vercel.app/
 
 Backend (Render):
-https://YOUR_BACKEND_URL.onrender.com
+[https://YOUR_BACKEND_URL.onrender.com](https://smart-appointment-backend-6vc8.onrender.com/)
 
 📌 Overview
 
