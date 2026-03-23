@@ -1,6 +1,6 @@
 Smart Appointment & Queue Management System
 
-A full-stack MERN application for managing appointments and service queues with role-based access for customers, staff, and owners.
+A full-stack MERN application for managing appointments and service queues with role-based access for customers, staff, and owners
 
 🔗 Live Application
 
